@@ -13,7 +13,7 @@ User interface:  🎟️
 user can retrieve common information about cinema halls, movies, available movie sessions, own orders and shopping-cart.
 Customer also can add necessary movie session to own shopping cart and complete orders
 
-# 📝 Project Structure
+### 📝 Project Structure
 Cinema app project follows a three-tier architecture with the following structure:
 
 * Controller: Handles incoming requests from user and admin and invokes the appropriate service methods.
@@ -28,7 +28,7 @@ Cinema app project follows a three-tier architecture with the following structur
 * Project also has logic of identification, authentication, authorization, filtration and encoding 
 realized by Spring which provides additional security of user data
 
-## 🎯 Endpoints 🎯
+### 🎯 Endpoints 🎯
 
 #### Admin 🎫
 - POST:   /register
@@ -52,7 +52,7 @@ realized by Spring which provides additional security of user data
 - POST: /orders/complete
 - PUT:  /shopping-carts/movie-sessions
 
-# 🧬 Technologies Used
+### 🧬 Technologies Used
 * Java 17
 * Spring 5.3.20
 * Spring Web 5.3.20
@@ -62,7 +62,7 @@ realized by Spring which provides additional security of user data
 * Apache Tomcat 9.0.50
 * Maven 3.1.1
 
-## 🚀 Instructions for project running
+### 🚀 Instructions for project running
 1. Clone this project from GitHub
 2. To deploy this project you need to install Apache Tomcat web server. 
 3. It's better to use 9.0.50 version which you can download [here](https://tomcat.apache.org/download-90.cgi). After installation, you can set up necessary configurations and fix Tomcat by selecting the artifact to deploy taxi-service:war exploded. It's also better to remove the Application context taxi_service_war exploded to /
