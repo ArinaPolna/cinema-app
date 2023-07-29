@@ -67,7 +67,8 @@ realized by Spring which provides additional security of user data
 - PUT:  /shopping-carts/movie-sessions
 
 ## 💡 DB schema 💡
-![cinema.png](..%2F..%2FPictures%2FSaved%20Pictures%2Fcinema.png)
+
+![cinema.png](cinema.png)
 
 ## 🧬 Technologies Used 🧬
 * Java 17
@@ -85,8 +86,8 @@ realized by Spring which provides additional security of user data
 3. It's better to use 9.0.50 version which you can download [here](https://tomcat.apache.org/download-90.cgi). 
 After installation, you can set up necessary configurations and fix Tomcat by selecting the artifact to deploy 
 taxi-service:war exploded. It's also better to remove the Application context taxi_service_war exploded to /
-![tomcat.png](..%2F..%2FPictures%2FSaved%20Pictures%2Ftomcat.png)
-![tomcat_2.png](..%2F..%2FPictures%2FSaved%20Pictures%2Ftomcat_2.png)
+![tomcat.png](tomcat.png)
+![tomcat_2.png](tomcat_2.png)
 4. Set up MySQL database 8 version or higher. 
 In the db.properties file fill with the appropriate info following fields to create connection with database:
 * db.driver: you database driver
