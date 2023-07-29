@@ -6,7 +6,7 @@
 
 [Endpoints](#-endpoints-)
 
-[DB schema](#db-schema)
+[DB schema](#-db-schema-)
 
 [Technologies Used](#-technologies-used-)
 
@@ -67,7 +67,7 @@ realized by Spring which provides additional security of user data
 - PUT:  /shopping-carts/movie-sessions
 
 ## 💡 DB schema 💡
-![](cinema.png)
+![cinema.png](..%2F..%2FPictures%2FSaved%20Pictures%2Fcinema.png)
 
 ## 🧬 Technologies Used 🧬
 * Java 17
@@ -82,10 +82,12 @@ realized by Spring which provides additional security of user data
 ## 🚀 Instructions for project running 🚀
 1. Clone this project from GitHub
 2. To deploy this project you need to install Apache Tomcat web server. 
-3. It's better to use 9.0.50 version which you can download [here](https://tomcat.apache.org/download-90.cgi). After installation, you can set up necessary configurations and fix Tomcat by selecting the artifact to deploy taxi-service:war exploded. It's also better to remove the Application context taxi_service_war exploded to /
-   ![](tomcat.png)
-   ![](tomcat_2.png)
-3. Set up MySQL database 8 version or higher. 
+3. It's better to use 9.0.50 version which you can download [here](https://tomcat.apache.org/download-90.cgi). 
+After installation, you can set up necessary configurations and fix Tomcat by selecting the artifact to deploy 
+taxi-service:war exploded. It's also better to remove the Application context taxi_service_war exploded to /
+![tomcat.png](..%2F..%2FPictures%2FSaved%20Pictures%2Ftomcat.png)
+![tomcat_2.png](..%2F..%2FPictures%2FSaved%20Pictures%2Ftomcat_2.png)
+4. Set up MySQL database 8 version or higher. 
 In the db.properties file fill with the appropriate info following fields to create connection with database:
 * db.driver: you database driver
 
@@ -93,7 +95,7 @@ In the db.properties file fill with the appropriate info following fields to cre
 
 * db.user: your accessing username
 
-* db.password: your accessing password
+* db.password: your accessing password 
 
-4. Install Postman to send post, put and delete requests. After this you can run your project
+5. Install Postman to send post, put and delete requests. After this you can run your project
 
